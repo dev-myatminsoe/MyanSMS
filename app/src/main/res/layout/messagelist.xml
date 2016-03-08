@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:cacheColorHint="?android:attr/colorBackground"
+        android:choiceMode="singleChoice"
+        android:divider="@null"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="true"
+        android:scrollingCache="true" />
+
+    <LinearLayout
+        android:background="#E0E0E0"
+        android:id="@+id/text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:addStatesFromChildren="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:id="@+id/text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:background="@drawable/text_view"
+            android:gravity="center_vertical"
+            android:hint="@string/text_hint"
+            android:imeOptions="actionDone|flagNoEnterAction"
+            android:inputType="textMultiLine|textCapSentences|textAutoCorrect"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:textColor="#212121"
+            android:textColorHint="#E0E0E0"
+            android:textSize="18sp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/send_"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="send"
+            android:src="@drawable/icn_send_disabled" />
+    </LinearLayout>
+
+</LinearLayout>
+

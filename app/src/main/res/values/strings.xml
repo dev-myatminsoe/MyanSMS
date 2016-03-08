@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fonts_" formatted="false">Fonts</string>
+    <string name="about_" formatted="false">About</string>
+    <string name="about_hint" formatted="false">About this app</string>
+    <string name="faq_hint" formatted="false">Some tips and tricks, how to set up this app.</string>
+    <string name="feedback_" formatted="false">Feedback</string>
+    <string name="feedback_hint" formatted="false">Report bugs, request features ...</string>
+    <string name="google_plus_hint" formatted="false">Follow me on Google+.\nGet update notifications etc.</string>
+    <string name="about0" formatted="false">MyanSMS lets you read your sms and write sms with any other app.</string>
+    <string name="more_apps_" formatted="false">More Apps..</string>
+    <string name="settings" formatted="false">Settings</string>
+    <string name="new_message_" formatted="false">New message</string>
+    <string name="new_message" formatted="false">1 unread message.</string>
+    <string name="new_messages_" formatted="false">New messages</string>
+    <string name="new_messages" formatted="false">%d unread messages.</string>
+    <string name="call" formatted="false">Call</string>
+    <string name="reply" formatted="false">Reply</string>
+    <string name="send_" formatted="false">Send</string>
+    <string name="notification_" formatted="false">Notifications</string>
+    <string name="notification_enable_" formatted="false">Enable notifications</string>
+    <string name="notification_enable_hint" formatted="false">Enable notifications on receive</string>
+    <string name="receive_vibrate_" formatted="false">Vibrate</string>
+    <string name="receive_vibrate_hint" formatted="false">Vibrate on receive</string>
+    <string name="receive_vibrate_mode_" formatted="false">Vibrator mode</string>
+    <string name="receive_sound_" formatted="false">Sound</string>
+    <string name="receive_sound_hint" formatted="false">Sound on receive</string>
+    <string name="receive_led_color_" formatted="false">LED color</string>
+    <string name="receive_led_flash_" formatted="false">LED mode</string>
+    <string name="receive_led_flash_hint" formatted="false">Set LED flashing behaviour</string>
+    <string name="receive_no_text_" formatted="false">Hide sender/text</string>
+    <string name="receive_no_text_hint" formatted="false">Hide sender/text in notification.</string>
+    <string name="behavior_" formatted="false">Behavior</string>
+    <string name="autosend_" formatted="false">Autosend</string>
+    <string name="appearance_and_behavior_" formatted="false">Appearance &amp; behavior</string>
+    <string name="autosend_hint" formatted="false">Send answers automatically. Currently only WebSMS supports this feature. Other apps will just show the text.</string>
+    <string name="show_text_field_" formatted="false">Show text field</string>
+    <string name="show_text_field_hint" formatted="false">Show text field instead of answer button.</string>
+    <string name="show_target_app_" formatted="false">Show target app</string>
+    <string name="show_target_app_hint" formatted="false">Show target App used for sending on \"send\" Button.</string>
+    <string name="appearance_" formatted="false">Appearance</string>
+    <string name="theme_" formatted="false">Theme</string>
+    <string name="textsize_" formatted="false">Text size</string>
+    <string name="textsize_hint" formatted="false">Text size in pixels; leave empty for default</string>
+    <string name="textcolor_" formatted="false">Text color</string>
+    <string name="textcolor_hint" formatted="false">Message text\'s color.</string>
+    <string name="textcolor_ignore_conv_" formatted="false">Ignore text color for threads</string>
+    <string name="textcolor_ignore_conv_hint" formatted="false">Ignore text color in list of threads.</string>
+    <string name="show_contact_photo_" formatted="false">Show photo</string>
+    <string name="show_contact_photo_hint" formatted="false">Show contact\'s photo in conversation list</string>
+    <string name="embed_zawgyi" formatted="false">Embed Zawgyi</string>
+    <string name="embed_zawgyi_summary" formateed="false">Embed Zawgyi Font (Low CPU Usage)</string>
+    <string name="convert_font" formatted="false">Detect and Convert</string>
+    <string name="convert_font_summary" formateed="false">Detect and convert to Unicode (High CPU Usage)</string>
+    <string name="show_emoticons_" formatted="false">Show emoticons</string>
+    <string name="show_emoticons_hint" formatted="false">Show emoticons in message list.</string>
+    <string name="hide_send_" formatted="false">Hide "send" button</string>
+    <string name="hide_send_hint" formatted="false">Hide "send" button near text field.</string>
+    <string name="hide_restore_" formatted="false">Hide "restore last message" button</string>
+    <string name="hide_restore_hint" formatted="false">Hide "restore last message" button in message list.</string>
+    <string name="hide_paste_" formatted="false">Hide "paste" button</string>
+    <string name="hide_paste_hint" formatted="false">Hide "paste" button on text field.</string>
+    <string name="hide_widget_label_" formatted="false">Hide widget\'s label</string>
+    <string name="hide_widget_label_hint" formatted="false">Hide the label of the widget.</string>
+    <string name="hide_delete_all_threads_" formatted="false">Hide delete all threads</string>
+    <string name="hide_delete_all_threads_hint" formatted="false">Hide delete all threads menu option.</string>
+    <string name="hide_message_count_" formatted="false">Hide message counts</string>
+    <string name="hide_message_count_hint" formatted="false">Hide message counts on conversation list.</string>
+    <string name="show_full_date_" formatted="false">Show full date</string>
+    <string name="show_full_date_hint" formatted="false">Show full date and time on every message.</string>
+    <string name="me" formatted="false">Me</string>
+    <string name="view_contact_" formatted="false">View contact</string>
+    <string name="add_contact_" formatted="false">Add to contacts</string>
+    <string name="view_thread_" formatted="false">View thread</string>
+    <string name="filter_spam_" formatted="false">Mark as Spam</string>
+    <string name="dont_filter_spam_" formatted="false">Remove from Blacklist</string>
+    <string name="delete_message_" formatted="false">Delete message</string>
+    <string name="delete_thread_" formatted="false">Delete thread</string>
+    <string name="forward_" formatted="false">Forward</string>
+    <string name="send_draft_" formatted="false">Send draft</string>
+    <string name="copy_text_" formatted="false">Copy message text</string>
+    <string name="view_details_" formatted="false">View message details</string>
+    <string name="delete_threads_" formatted="false">Delete all threads</string>
+    <string name="mark_all_read_" formatted="false">Mark all as read</string>
+    <string name="mark_read_" formatted="false">Mark read</string>
+    <string name="mark_unread_" formatted="false">Mark unread</string>
+    <string name="message_options_" formatted="false">Message options</string>
+    <string name="delete_message_question" formatted="false">Do you really want to delete this message?</string>
+    <string name="delete_thread_question" formatted="false">Do you really want to delete <b>all messages of this thread</b>?</string>
+    <string name="delete_threads_question" formatted="false">Do you really want to delete <b>all messages</b>?</string>
+    <string name="from_" formatted="false">From:</string>
+    <string name="to_" formatted="false">To:</string>
+    <string name="to_hint" formatted="false">Name or Number</string>
+    <string name="type_" formatted="false">Type:</string>
+    <string name="sent_" formatted="false">Sent:</string>
+    <string name="received_" formatted="false">Received:</string>
+    <string name="view_mms" formatted="false">View MMS</string>
+    <string name="mms_conversation" formatted="false">&lt;MMS body&gt;</string>
+    <string name="import_contact_" formatted="false">Import contact</string>
+    <string name="download_" formatted="false">Download</string>
+    <string name="downloading_" formatted="false">Downloading..</string>
+    <string name="error_conv_null" formatted="false">Error getting conversation from DB!</string>
+    <string name="error_sending_failed" formatted="false">Sending failed</string>
+    <string name="text_hint" formatted="false">Text</string>
+    <string name="paste_" formatted="false">[Paste from clipboard]</string>
+    <string name="restore_" formatted="false">Restore last message</string>
+    <string name="attachment_saved" formatted="false">Saved attachment on SD card as:</string>
+    <string name="attachment_not_saved" formatted="false">Could not save attachment.</string>
+    <string name="chooser_" formatted="false">Chooser</string>
+    <string name="notification_icon_" formatted="false">Notification icon</string>
+    <string name="notification_default_" formatted="false">Default</string>
+    <string name="notification_gingerbread_" formatted="false">Gingerbread</string>
+    <string name="notification_gingerbread_mail_" formatted="false">Gingerbread mail</string>
+    <string name="notification_black_" formatted="false">Black</string>
+    <string name="notification_green_" formatted="false">Green</string>
+    <string name="notification_yellow_" formatted="false">Yellow</string>
+    <string name="bubbles_in_" formatted="false">Bubbles in</string>
+    <string name="bubbles_in_hint" formatted="false">Bubbles for incoming messages</string>
+    <string name="bubbles_out_" formatted="false">Bubbles out</string>
+    <string name="bubbles_out_hint" formatted="false">Bubbles for outgoing messages</string>
+    <string name="bubbles_nothing" formatted="false">Nothing</string>
+    <string name="bubbles_plain_dark_gray" formatted="false">Plain dark gray</string>
+    <string name="bubbles_plain_light_gray" formatted="false">Plain light gray</string>
+    <string name="bubbles_old_turquoise_left" formatted="false">Old turquoise left</string>
+    <string name="bubbles_old_turquoise_right" formatted="false">Old turquoise right</string>
+    <string name="bubbles_old_green_left" formatted="false">Old green left</string>
+    <string name="bubbles_old_green_right" formatted="false">Old green right</string>
+    <string name="bubbles_blue_left" formatted="false">Blue left</string>
+    <string name="bubbles_blue_right" formatted="false">Blue right</string>
+    <string name="bubbles_blue2_left" formatted="false">Blue 2 left</string>
+    <string name="bubbles_blue2_right" formatted="false">Blue 2 right</string>
+    <string name="bubbles_brown_left" formatted="false">Brown left</string>
+    <string name="bubbles_brown_right" formatted="false">Brown right</string>
+    <string name="bubbles_gray_left" formatted="false">Gray left</string>
+    <string name="bubbles_gray_right" formatted="false">Gray right</string>
+    <string name="bubbles_green_left" formatted="false">Green left</string>
+    <string name="bubbles_green_right" formatted="false">Green right</string>
+    <string name="bubbles_green2_left" formatted="false">Green 2 left</string>
+    <string name="bubbles_green2_right" formatted="false">Green 2 right</string>
+    <string name="bubbles_orange_left" formatted="false">Orange left</string>
+    <string name="bubbles_orange_right" formatted="false">Orange right</string>
+    <string name="bubbles_pink_left" formatted="false">Pink left</string>
+    <string name="bubbles_pink_right" formatted="false">Pink right</string>
+    <string name="bubbles_purple_left" formatted="false">Purple left</string>
+    <string name="bubbles_purple_right" formatted="false">Purple right</string>
+    <string name="bubbles_white_left" formatted="false">White left</string>
+    <string name="bubbles_white_right" formatted="false">White right</string>
+    <string name="bubbles_yellow_left" formatted="false">Yellow left</string>
+    <string name="bubbles_yellow_right" formatted="false">Yellow right</string>
+    <string name="decode_decimal_ncr_" formatted="false">Decode Decimal NCR</string>
+    <string name="decode_decimal_ncr_hint" formatted="false">Some providers deliver unicode messages encoded as decimal NCR (&amp;#0000;). Check to auto decode such entities.</string>
+    <string name="activate_sender_" formatted="false">Activate sender</string>
+    <string name="activate_sender_hint" formatted="false">Activate SMSdroid\'s message sender.</string>
+    <string name="fix_numbers_" formatted="false">Fix numbers</string>
+    <string name="fix_numbers_hint" formatted="false">Replace parts of a number with a regular expression before sending. Most users don\'t need to change this.</string>
+    <string name="fix_number1_regex_" formatted="false">Regex 1</string>
+    <string name="fix_number1_replace_" formatted="false">Replace 1</string>
+    <string name="fix_number2_regex_" formatted="false">Regex 2</string>
+    <string name="fix_number2_replace_" formatted="false">Replace 2</string>
+    <string name="fix_number3_regex_" formatted="false">Regex 3</string>
+    <string name="fix_number3_replace_" formatted="false">Replace 3</string>
+    <string name="fix_numbers_regex_hint" formatted="false">Regular expression to search for.</string>
+    <string name="fix_numbers_replace_hint" formatted="false">Replace matched text with this text.</string>
+    <string name="use_new_layout_" formatted="false">Use tiled layout</string>
+    <string name="use_new_layout_hint" formatted="false">Use a tiled user interface for conversations</string>
+    <string name="error_start_mms_download" formatted="false">Error starting MMS download</string>
+    <string-array name="themes">
+        <item>Black</item>
+        <item>Light</item>
+    </string-array>
+    <string-array name="led_color">
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Magenta</item>
+        <item>Cyan</item>
+    </string-array>
+    <string-array name="led_flash">
+        <item>Flashing</item>
+        <item>Consistently</item>
+    </string-array>
+    <string-array name="vibrate_mode">
+        <item>Long</item>
+        <item>Multiple short</item>
+        <item>Multiple long</item>
+        <item>Short, long, short, long</item>
+    </string-array>
+    <string name="developed_by">Developed By</string>
+    <string name="mms">Myat Min Soe</string>
+    <string name="reset" formatted="false">Reset</string>
+    <string name="license_" formatted="false">Licenses</string>
+    <string name="license" formatted="false">GPLv3</string>
+    <string name="author_" formatted="false">Author:</string>
+    <string name="website_" formatted="false">Website:</string>
+    <string name="mobile_only_" formatted="false">Only mobile numbers</string>
+    <string name="mobile_only_hint" formatted="false">Only suggest mobile numbers for recipient</string>
+    <string name="edit_short_text_" formatted="false">Edit as short message</string>
+    <string name="edit_short_text_hint" formatted="false">Consider input a short message. The keyboard usually replaces enter with smiley button if enabled.</string>
+    <string name="permission_save_to_db" formatted="false">Save messages to database</string>
+    <string name="permission_save_to_db_description" formatted="false">Save messages sent by other apps to android message database</string>
+    <string name="not_default_app" formatted="false">SMSdroid is not the default SMS app</string>
+    <string name="not_default_app_message" formatted="false">SMSdroid needs to be the default SMS app to work properly</string>
+    <string name="forwarded_sms_clean_" formatted="false">Modify received sms</string>
+    <string name="forwarded_sms_clean_hint" formatted="false">Strips sender in received sms according to "([0-9a-zA-Z]+):" and use that this number as sender.</string>
+    <string name="error_unknown" formatted="false">Unknown error</string>
+    <string name="donate_remove_ads_" formatted="false">Donate/remove ads</string>
+    <string name="permissions_" formatted="false">Permissions</string>
+    <string name="permissions_read_phone_state" formatted="false">Read phone state: this permission is necessary to fetch your phone number from the device. The phone number is used as sender for outgoing messages.\nThe app still works when this permission is denied.</string>
+    <string name="permissions_read_contacts" formatted="false">Read contacts: this permission is necessary to resolve phone numbers to contacts and auto complete names and numbers in the recipient input field.\nThe app does not work without this permission.</string>
+    <string name="permissions_read_sms" formatted="false">Read SMS: this permission is necessary to read SMS from phone\'s database.\nThe app does not work without this permission.</string>
+    <string name="permissions_write_sms" formatted="false">Write SMS: this permission is necessary to mark SMS as read or to delete messages.\nThe app still works to some extend when this permission is denied.</string>
+    <string name="permissions_send_sms" formatted="false">Send SMS: this permission is necessary to send SMS.\nThe app still works when this permission is denied. You will need to use a different app for sending though.</string>
+    <string name="permissions_write_external_storage" formatted="false">Write external storage: this permission is necessary to save mms media to external storage.\nThe app still works when this permission is denied.</string>
+
+</resources>

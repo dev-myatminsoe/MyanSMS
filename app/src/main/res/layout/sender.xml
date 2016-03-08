@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e0e0e0"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/to"
+            style="@style/TextAppearance.MultiComplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_view"
+            android:hint="@string/to_hint"
+            android:imeOptions="actionNext"
+            android:nextFocusDown="@+id/text"
+            android:nextFocusRight="@+id/text"
+            android:padding="8dp"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:autoText="true"
+        android:background="@drawable/text_view"
+        android:gravity="top"
+        android:hint="@string/text_hint"
+        android:imeOptions="actionDone|flagNoEnterAction"
+        android:inputType="textMultiLine|textAutoCorrect|textCapSentences"
+        android:nextFocusRight="@+id/send_"
+        android:padding="8dp" />
+
+</LinearLayout>
