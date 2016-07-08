@@ -23,6 +23,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.MultiAutoCompleteTextView;
 import android.widget.Toast;
@@ -172,6 +173,17 @@ public final class SenderActivity extends AppCompatActivity{
                     flags &= ~InputType.TYPE_TEXT_VARIATION_SHORT_MESSAGE;
                 }
                 et.setInputType(flags);
+                et.setOnLongClickListener(new View.OnLongClickListener() {
+                    @Override
+                    public boolean onLongClick(View v) {
+                        if(p.getString("output_convert", "true").equals("true")) {
+                            et.setText(myat.uni2zg(et.getText().toString()));
+                        } else {
+                            et.setText(myat.zg2uni(et.getText().toString()));
+                        }
+                        return true;
+                    }
+                });
             }
         }
     }

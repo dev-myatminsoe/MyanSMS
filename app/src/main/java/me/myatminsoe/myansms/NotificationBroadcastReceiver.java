@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 
 /**
  * Receives intents from notifications.
@@ -25,7 +24,6 @@ public class NotificationBroadcastReceiver extends BroadcastReceiver {
             try {
                 Bundle extras = intent.getExtras();
                 if (extras == null) {
-                    Log.w(TAG, "empty extras");
                     return;
                 }
 
@@ -34,7 +32,6 @@ public class NotificationBroadcastReceiver extends BroadcastReceiver {
                 ConversationListActivity.markRead(context, Uri.parse(muri), 1);
 
             } catch (Exception e) {
-                Log.e(TAG, "unable to mark message read", e);
             }
         }
     }

@@ -49,6 +49,12 @@
     <string name="show_contact_photo_" formatted="false">Show photo</string>
     <string name="show_contact_photo_hint" formatted="false">Show contact\'s photo in conversation list</string>
     <string name="embed_zawgyi" formatted="false">Embed Zawgyi</string>
+
+    <string name="convert_output">Convert Output</string>
+    <string name="convert_output_summary">Convert on long touch message box</string>
+    <string name="auto_convert_summary">Auto convert on send</string>
+    <string name="auto_convert">Auto Convert</string>
+
     <string name="embed_zawgyi_summary" formateed="false">Embed Zawgyi Font (Low CPU Usage)</string>
     <string name="convert_font" formatted="false">Detect and Convert</string>
     <string name="convert_font_summary" formateed="false">Detect and convert to Unicode (High CPU Usage)</string>
@@ -168,6 +174,14 @@
         <item>Black</item>
         <item>Light</item>
     </string-array>
+    <string-array name="output">
+        <item>Convert To Zawgyi</item>
+        <item>Convert To Unicode</item>
+    </string-array>
+    <string-array name="output_values">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
     <string-array name="led_color">
         <item>Green</item>
         <item>Blue</item>
@@ -199,8 +213,8 @@
     <string name="edit_short_text_hint" formatted="false">Consider input a short message. The keyboard usually replaces enter with smiley button if enabled.</string>
     <string name="permission_save_to_db" formatted="false">Save messages to database</string>
     <string name="permission_save_to_db_description" formatted="false">Save messages sent by other apps to android message database</string>
-    <string name="not_default_app" formatted="false">SMSdroid is not the default SMS app</string>
-    <string name="not_default_app_message" formatted="false">SMSdroid needs to be the default SMS app to work properly</string>
+    <string name="not_default_app" formatted="false">MyanSMS is not the default SMS app</string>
+    <string name="not_default_app_message" formatted="false">MyanSMS needs to be the default SMS app to work properly</string>
     <string name="forwarded_sms_clean_" formatted="false">Modify received sms</string>
     <string name="forwarded_sms_clean_hint" formatted="false">Strips sender in received sms according to "([0-9a-zA-Z]+):" and use that this number as sender.</string>
     <string name="error_unknown" formatted="false">Unknown error</string>

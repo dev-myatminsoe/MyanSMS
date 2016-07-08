@@ -25,4 +25,18 @@
         android:summary="@string/convert_font_summary"
         android:title="@string/convert_font" />
 
+    <ListPreference
+        android:defaultValue="true"
+        android:entries="@array/output"
+        android:entryValues="@array/output_values"
+        android:key="output_convert"
+        android:summary="@string/convert_output_summary"
+        android:title="@string/convert_output" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="auto_convert"
+        android:summary="@string/auto_convert_summary"
+        android:title="@string/auto_convert" />
+
 </PreferenceScreen>

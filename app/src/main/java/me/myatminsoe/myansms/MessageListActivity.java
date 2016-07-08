@@ -243,6 +243,19 @@ public class MessageListActivity extends AppCompatActivity implements OnItemClic
         longItemClickDialog[WHICH_COPY_TEXT] = getString(R.string.copy_text_);
         longItemClickDialog[WHICH_VIEW_DETAILS] = getString(R.string.view_details_);
         longItemClickDialog[WHICH_DELETE] = getString(R.string.delete_message_);
+
+        etText.setOnLongClickListener(new OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                if(p.getString("output_convert", "true").equals("true")) {
+                    etText.setText(myat.uni2zg(etText.getText().toString()));
+                } else {
+                    etText.setText(myat.zg2uni(etText.getText().toString()));
+                }
+
+                return true;
+            }
+        });
     }
 
     @Override
@@ -656,7 +669,17 @@ public class MessageListActivity extends AppCompatActivity implements OnItemClic
         if (conv == null || conv.getContact() == null) {
             throw new NullPointerException("conv and conv.getContact() must be not null");
         }
-        final String text = etText.getText().toString().trim();
+
+        final SharedPreferences p = PreferenceManager.getDefaultSharedPreferences(this);
+        String text = etText.getText().toString().trim();
+        if(p.getBoolean("auto_convert", false)) {
+            if(p.getString("output_convert", "true").equals("true")) {
+                text = myat.uni2zg(text);
+            } else {
+                text = myat.zg2uni(text);
+            }
+        }
+
         final Intent i = ConversationListActivity.getComposeIntent(this, conv.getContact()
                 .getNumber(), showChooser);
         i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
